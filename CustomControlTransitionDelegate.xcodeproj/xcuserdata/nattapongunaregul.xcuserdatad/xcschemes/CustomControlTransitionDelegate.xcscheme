@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BE6EA3C71F0FEAAE009661C4"
+               BuildableName = "CustomControlTransitionDelegate.app"
+               BlueprintName = "CustomControlTransitionDelegate"
+               ReferencedContainer = "container:CustomControlTransitionDelegate.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BE6EA3DB1F0FEAAE009661C4"
+               BuildableName = "CustomControlTransitionDelegateTests.xctest"
+               BlueprintName = "CustomControlTransitionDelegateTests"
+               ReferencedContainer = "container:CustomControlTransitionDelegate.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BE6EA3E61F0FEAAE009661C4"
+               BuildableName = "CustomControlTransitionDelegateUITests.xctest"
+               BlueprintName = "CustomControlTransitionDelegateUITests"
+               ReferencedContainer = "container:CustomControlTransitionDelegate.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BE6EA3C71F0FEAAE009661C4"
+            BuildableName = "CustomControlTransitionDelegate.app"
+            BlueprintName = "CustomControlTransitionDelegate"
+            ReferencedContainer = "container:CustomControlTransitionDelegate.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BE6EA3C71F0FEAAE009661C4"
+            BuildableName = "CustomControlTransitionDelegate.app"
+            BlueprintName = "CustomControlTransitionDelegate"
+            ReferencedContainer = "container:CustomControlTransitionDelegate.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BE6EA3C71F0FEAAE009661C4"
+            BuildableName = "CustomControlTransitionDelegate.app"
+            BlueprintName = "CustomControlTransitionDelegate"
+            ReferencedContainer = "container:CustomControlTransitionDelegate.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

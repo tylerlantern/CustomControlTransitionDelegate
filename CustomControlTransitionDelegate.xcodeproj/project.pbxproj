@@ -14,6 +14,16 @@
 		BE6EA3D61F0FEAAE009661C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6EA3D41F0FEAAE009661C4 /* LaunchScreen.storyboard */; };
 		BE6EA3E11F0FEAAE009661C4 /* CustomControlTransitionDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6EA3E01F0FEAAE009661C4 /* CustomControlTransitionDelegateTests.swift */; };
 		BE6EA3EC1F0FEAAE009661C4 /* CustomControlTransitionDelegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6EA3EB1F0FEAAE009661C4 /* CustomControlTransitionDelegateUITests.swift */; };
+		BE6EA3FA1F0FEE3B009661C4 /* UIImageViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6EA3F91F0FEE3B009661C4 /* UIImageViewWithBorder.swift */; };
+		BE7F19F21F115A2600FC4F10 /* OtherChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7F19F11F115A2600FC4F10 /* OtherChatCell.swift */; };
+		BEA486D21F10EFA800A31337 /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEA486D11F10EFA800A31337 /* profile.jpg */; };
+		BEA486D51F10F39C00A31337 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA486D41F10F39C00A31337 /* ViewModel.swift */; };
+		BEA486D71F10F40000A31337 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA486D61F10F40000A31337 /* Person.swift */; };
+		BEA486DA1F11072900A31337 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA486D91F11072900A31337 /* Chat.swift */; };
+		BEA486DC1F11562800A31337 /* SelfChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA486DB1F11562800A31337 /* SelfChatCell.swift */; };
+		BEC363671F11D60B0089A97E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC363661F11D60B0089A97E /* SecondViewController.swift */; };
+		BEC363691F11DA080089A97E /* AnimatedTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC363681F11DA080089A97E /* AnimatedTransitionHandler.swift */; };
+		BEC3636E1F1243090089A97E /* kendall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC3636D1F1243090089A97E /* kendall.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		BE6EA3E71F0FEAAE009661C4 /* CustomControlTransitionDelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomControlTransitionDelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6EA3EB1F0FEAAE009661C4 /* CustomControlTransitionDelegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControlTransitionDelegateUITests.swift; sourceTree = "<group>"; };
 		BE6EA3ED1F0FEAAE009661C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6EA3F91F0FEE3B009661C4 /* UIImageViewWithBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageViewWithBorder.swift; path = ../UIImageViewWithBorder.swift; sourceTree = "<group>"; };
+		BE7F19F11F115A2600FC4F10 /* OtherChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OtherChatCell.swift; path = ../OtherChatCell.swift; sourceTree = "<group>"; };
+		BEA486D11F10EFA800A31337 /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+		BEA486D41F10F39C00A31337 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		BEA486D61F10F40000A31337 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../ViewModels/Person.swift; sourceTree = "<group>"; };
+		BEA486D91F11072900A31337 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		BEA486DB1F11562800A31337 /* SelfChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelfChatCell.swift; path = ../SelfChatCell.swift; sourceTree = "<group>"; };
+		BEC363661F11D60B0089A97E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BEC363681F11DA080089A97E /* AnimatedTransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatedTransitionHandler.swift; path = ../AnimatedTransitionHandler.swift; sourceTree = "<group>"; };
+		BEC3636D1F1243090089A97E /* kendall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kendall.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +117,18 @@
 		BE6EA3CA1F0FEAAE009661C4 /* CustomControlTransitionDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				BEC3636A1F11F33A0089A97E /* Controls */,
+				BEA486D81F10F48300A31337 /* Models */,
+				BEA486D31F10F35800A31337 /* ViewModels */,
+				BEA486D11F10EFA800A31337 /* profile.jpg */,
+				BEC3636D1F1243090089A97E /* kendall.jpg */,
 				BE6EA3CB1F0FEAAE009661C4 /* AppDelegate.swift */,
 				BE6EA3CD1F0FEAAE009661C4 /* ViewController.swift */,
 				BE6EA3CF1F0FEAAE009661C4 /* Main.storyboard */,
 				BE6EA3D21F0FEAAE009661C4 /* Assets.xcassets */,
 				BE6EA3D41F0FEAAE009661C4 /* LaunchScreen.storyboard */,
 				BE6EA3D71F0FEAAE009661C4 /* Info.plist */,
+				BEC363661F11D60B0089A97E /* SecondViewController.swift */,
 			);
 			path = CustomControlTransitionDelegate;
 			sourceTree = "<group>";
@@ -123,6 +149,34 @@
 				BE6EA3ED1F0FEAAE009661C4 /* Info.plist */,
 			);
 			path = CustomControlTransitionDelegateUITests;
+			sourceTree = "<group>";
+		};
+		BEA486D31F10F35800A31337 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BEA486D41F10F39C00A31337 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BEA486D81F10F48300A31337 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEA486D61F10F40000A31337 /* Person.swift */,
+				BEA486D91F11072900A31337 /* Chat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BEC3636A1F11F33A0089A97E /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				BEA486DB1F11562800A31337 /* SelfChatCell.swift */,
+				BE7F19F11F115A2600FC4F10 /* OtherChatCell.swift */,
+				BEC363681F11DA080089A97E /* AnimatedTransitionHandler.swift */,
+				BE6EA3F91F0FEE3B009661C4 /* UIImageViewWithBorder.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +292,8 @@
 				BE6EA3D61F0FEAAE009661C4 /* LaunchScreen.storyboard in Resources */,
 				BE6EA3D31F0FEAAE009661C4 /* Assets.xcassets in Resources */,
 				BE6EA3D11F0FEAAE009661C4 /* Main.storyboard in Resources */,
+				BEC3636E1F1243090089A97E /* kendall.jpg in Resources */,
+				BEA486D21F10EFA800A31337 /* profile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +318,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7F19F21F115A2600FC4F10 /* OtherChatCell.swift in Sources */,
 				BE6EA3CE1F0FEAAE009661C4 /* ViewController.swift in Sources */,
+				BEA486DA1F11072900A31337 /* Chat.swift in Sources */,
+				BEC363671F11D60B0089A97E /* SecondViewController.swift in Sources */,
+				BEC363691F11DA080089A97E /* AnimatedTransitionHandler.swift in Sources */,
+				BE6EA3FA1F0FEE3B009661C4 /* UIImageViewWithBorder.swift in Sources */,
+				BEA486D71F10F40000A31337 /* Person.swift in Sources */,
+				BEA486DC1F11562800A31337 /* SelfChatCell.swift in Sources */,
+				BEA486D51F10F39C00A31337 /* ViewModel.swift in Sources */,
 				BE6EA3CC1F0FEAAE009661C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +578,7 @@
 				BE6EA3F21F0FEAAE009661C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE6EA3F31F0FEAAE009661C4 /* Build configuration list for PBXNativeTarget "CustomControlTransitionDelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +587,7 @@
 				BE6EA3F51F0FEAAE009661C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE6EA3F61F0FEAAE009661C4 /* Build configuration list for PBXNativeTarget "CustomControlTransitionDelegateUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +596,7 @@
 				BE6EA3F81F0FEAAE009661C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
