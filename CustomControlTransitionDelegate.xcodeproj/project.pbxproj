@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE279D061F78030E009FEFCA /* InteractionTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE279D051F78030E009FEFCA /* InteractionTransitionHandler.swift */; };
+		BE4380941F4B42A40081AB1A /* SvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4380931F4B42A40081AB1A /* SvView.swift */; };
 		BE6EA3CC1F0FEAAE009661C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6EA3CB1F0FEAAE009661C4 /* AppDelegate.swift */; };
 		BE6EA3CE1F0FEAAE009661C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6EA3CD1F0FEAAE009661C4 /* ViewController.swift */; };
 		BE6EA3D11F0FEAAE009661C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6EA3CF1F0FEAAE009661C4 /* Main.storyboard */; };
@@ -24,6 +26,10 @@
 		BEC363671F11D60B0089A97E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC363661F11D60B0089A97E /* SecondViewController.swift */; };
 		BEC363691F11DA080089A97E /* AnimatedTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC363681F11DA080089A97E /* AnimatedTransitionHandler.swift */; };
 		BEC3636E1F1243090089A97E /* kendall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC3636D1F1243090089A97E /* kendall.jpg */; };
+		BECC0FBA1F78B9930055D18E /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC0FB91F78B9930055D18E /* PresentationController.swift */; };
+		BECC0FBC1F78C53A0055D18E /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC0FBB1F78C53A0055D18E /* TransitionManager.swift */; };
+		BECC0FBE1F78CC710055D18E /* ParticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC0FBD1F78CC710055D18E /* ParticalView.swift */; };
+		BEDA9CC21F4B5B35003E5F17 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = BEDA9CC11F4B5B35003E5F17 /* FireParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE279D051F78030E009FEFCA /* InteractionTransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionTransitionHandler.swift; sourceTree = "<group>"; };
+		BE4380931F4B42A40081AB1A /* SvView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SvView.swift; sourceTree = "<group>"; };
 		BE6EA3C81F0FEAAE009661C4 /* CustomControlTransitionDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomControlTransitionDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6EA3CB1F0FEAAE009661C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE6EA3CD1F0FEAAE009661C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +75,10 @@
 		BEC363661F11D60B0089A97E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BEC363681F11DA080089A97E /* AnimatedTransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatedTransitionHandler.swift; path = ../AnimatedTransitionHandler.swift; sourceTree = "<group>"; };
 		BEC3636D1F1243090089A97E /* kendall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kendall.jpg; sourceTree = "<group>"; };
+		BECC0FB91F78B9930055D18E /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		BECC0FBB1F78C53A0055D18E /* TransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		BECC0FBD1F78CC710055D18E /* ParticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticalView.swift; sourceTree = "<group>"; };
+		BEDA9CC11F4B5B35003E5F17 /* FireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +141,8 @@
 				BE6EA3D41F0FEAAE009661C4 /* LaunchScreen.storyboard */,
 				BE6EA3D71F0FEAAE009661C4 /* Info.plist */,
 				BEC363661F11D60B0089A97E /* SecondViewController.swift */,
+				BE4380931F4B42A40081AB1A /* SvView.swift */,
+				BEDA9CC11F4B5B35003E5F17 /* FireParticle.sks */,
 			);
 			path = CustomControlTransitionDelegate;
 			sourceTree = "<group>";
@@ -175,6 +189,10 @@
 				BE7F19F11F115A2600FC4F10 /* OtherChatCell.swift */,
 				BEC363681F11DA080089A97E /* AnimatedTransitionHandler.swift */,
 				BE6EA3F91F0FEE3B009661C4 /* UIImageViewWithBorder.swift */,
+				BE279D051F78030E009FEFCA /* InteractionTransitionHandler.swift */,
+				BECC0FB91F78B9930055D18E /* PresentationController.swift */,
+				BECC0FBB1F78C53A0055D18E /* TransitionManager.swift */,
+				BECC0FBD1F78CC710055D18E /* ParticalView.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -294,6 +312,7 @@
 				BE6EA3D11F0FEAAE009661C4 /* Main.storyboard in Resources */,
 				BEC3636E1F1243090089A97E /* kendall.jpg in Resources */,
 				BEA486D21F10EFA800A31337 /* profile.jpg in Resources */,
+				BEDA9CC21F4B5B35003E5F17 /* FireParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,12 +339,17 @@
 			files = (
 				BE7F19F21F115A2600FC4F10 /* OtherChatCell.swift in Sources */,
 				BE6EA3CE1F0FEAAE009661C4 /* ViewController.swift in Sources */,
+				BECC0FBC1F78C53A0055D18E /* TransitionManager.swift in Sources */,
+				BE279D061F78030E009FEFCA /* InteractionTransitionHandler.swift in Sources */,
 				BEA486DA1F11072900A31337 /* Chat.swift in Sources */,
 				BEC363671F11D60B0089A97E /* SecondViewController.swift in Sources */,
 				BEC363691F11DA080089A97E /* AnimatedTransitionHandler.swift in Sources */,
 				BE6EA3FA1F0FEE3B009661C4 /* UIImageViewWithBorder.swift in Sources */,
+				BECC0FBE1F78CC710055D18E /* ParticalView.swift in Sources */,
 				BEA486D71F10F40000A31337 /* Person.swift in Sources */,
 				BEA486DC1F11562800A31337 /* SelfChatCell.swift in Sources */,
+				BECC0FBA1F78B9930055D18E /* PresentationController.swift in Sources */,
+				BE4380941F4B42A40081AB1A /* SvView.swift in Sources */,
 				BEA486D51F10F39C00A31337 /* ViewModel.swift in Sources */,
 				BE6EA3CC1F0FEAAE009661C4 /* AppDelegate.swift in Sources */,
 			);

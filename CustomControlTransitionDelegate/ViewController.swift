@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     var viewModel : ViewModel = ViewModel()
-    lazy var animatedTransitionHandler = AnimatedTransitionHandler()
+    lazy var transitionManager = TransitionManager()
     var isFirstTime : Bool = true
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,12 +26,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-//    override func viewDidAppear(_ animated: Bool) {
-//        if isFirstTime {
-//            isFirstTime = false
-//            collectionView(self.collectionView, didSelectItemAt: IndexPath(item: 1, section: 0))
-//        }
-//    }
+    //    override func viewDidAppear(_ animated: Bool) {
+    //        if isFirstTime {
+    //            isFirstTime = false
+    //            collectionView(self.collectionView, didSelectItemAt: IndexPath(item: 1, section: 0))
+    //        }
+    //    }
 }
 extension ViewController : UICollectionViewDataSource,UICollectionViewDelegate ,UICollectionViewDelegateFlowLayout{
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -55,8 +55,9 @@ extension ViewController : UICollectionViewDataSource,UICollectionViewDelegate ,
         if segue.identifier == "segueGoToSecondVc"{
             let secondVc = segue.destination as! SecondViewController
             let imageProfile = sender as! UIImageViewWithBorder
-            animatedTransitionHandler.image = imageProfile
-            secondVc.transitioningDelegate = self
+            transitionManager.image = imageProfile
+            secondVc.transitioningDelegate = transitionManager
+            secondVc.modalPresentationStyle = .custom
             secondVc.imageData = imageProfile.image
         }
     }
@@ -76,16 +77,8 @@ extension ViewController : UICollectionViewDataSource,UICollectionViewDelegate ,
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: UIScreen.main.bounds.width , height: 81)
     }
-
-}
-
-extension ViewController : UIViewControllerTransitioningDelegate {
-    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return animatedTransitionHandler
-    }
-    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        print(source)
-        return animatedTransitionHandler
-    }
     
 }
+
+
+
