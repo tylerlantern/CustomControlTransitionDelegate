@@ -33,7 +33,7 @@ class InteractionTransitionHandler:  UIPercentDrivenInteractiveTransition {
             viewController.dismiss(animated: true, completion: nil)
             break
         case .changed:
-            const = CGFloat(fminf(fmaxf(Float(viewTranslation.y / threshold), 0.01), 0.99))
+            const = CGFloat(fminf(fmaxf(Float(viewTranslation.y / threshold), 0), 1.0))
             shouldCompleteTransition = const > 0.5
             update(const)
             break

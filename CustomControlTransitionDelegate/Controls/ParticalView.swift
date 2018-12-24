@@ -34,9 +34,9 @@ class ParticalView: UIView {
         emitterCell.velocityRange = 200.0
         emitterCell.emissionRange = .pi * 0.5
         emitterCell.color = UIColor(red: 0.9, green: 1.0, blue: 1.0, alpha: 1.0).cgColor
-        emitterCell.redRange   = 0.3
-        emitterCell.greenRange = 0.3
-        emitterCell.blueRange  = 0.3
+//        emitterCell.redRange   = 0.3
+//        emitterCell.greenRange = 0.3
+//        emitterCell.blueRange  = 0.3
         emitterCell.redRange   = 0.1
         emitterCell.greenRange = 0.1
         emitterCell.blueRange  = 0.1
@@ -61,14 +61,14 @@ class ParticalView: UIView {
         cell2.emissionLongitude = .pi
         cell2.velocityRange = 20
         cell2.emissionRange = .pi * 0.25
-        cell2.scale = 0.8
+        cell2.scale = 1
         cell2.scaleRange = 0.2
         cell2.scaleSpeed = -0.1
         cell2.alphaRange = 0.35
         cell2.alphaSpeed = -0.15
         cell2.spin = .pi
         cell2.spinRange = .pi
-        
+
         //cell #3
         let cell3 = CAEmitterCell()
         cell3.contents = UIImage(named: "flake3.png")?.cgImage
@@ -81,12 +81,13 @@ class ParticalView: UIView {
         cell3.emissionLongitude = .pi
         cell3.velocityRange = 50
         cell3.emissionRange = .pi * 0.25
-        cell3.scale = 0.8
+        cell3.scale = 1
         cell3.scaleRange = 0.2
         cell3.scaleSpeed = -0.05
         cell3.alphaRange = 0.5
         cell3.alphaSpeed = -0.05
-        
+//
         emitter.emitterCells = [emitterCell, cell2, cell3]
+//        emitter.emitterCells = [emitterCell]
     }
 }
